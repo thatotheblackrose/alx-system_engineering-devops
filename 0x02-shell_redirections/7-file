@@ -1,8 +1,2 @@
 #!/bin/bash
-7-file='*\\"Best School\\"\\*$\\?******:)'
-content="Best School\n"
-
-# Create the file
-echo -e $content > "$7-file"
-
-echo "File created: $7-file"
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
